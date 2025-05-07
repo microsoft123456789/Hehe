@@ -2,8 +2,46 @@
 <html>
   <head>
   <meta charset="UTF-8">
-  
+  <title>Nira Homeage</title>
   </head>
-    <body>
-    </body>
+    <style>
+    /* Navbar Styling */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 8%;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+            transition: all 0.3s ease;
+            background-color: rgba(15, 15, 40, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(90, 68, 255, 0.2);
+        }
+    </style>
+      <body>
+      <nav id="navbar">
+        <a href="/" class="logo" style="text-decoration: none;">
+            <i class="bi bi-hexagon-fill"></i> Proxy-pal
+        </a>
+        <div class="nav-links">
+            <a class="nav-link has-tooltip" href="/engine">
+                PRO_Y
+                <span class="tooltip">Proxy</span>
+            <a href="/movies" class="nav-link has-tooltip">
+                TV
+                <span class="tooltip">Movies + Shows</span>
+            </a>
+            <a class="nav-link has-tooltip" href="/ai">
+                AI
+                <span class="tooltip">AI</span>
+            </a>
+            <a class="nav-link has-tooltip" href="/extras">
+                Extras
+                <span class="tooltip">Extras</span>
+            </a>
+        </div>
+      </body>
 </html>
